@@ -1,1 +1,150 @@
+.body {
+  box-sizing: border-box;
+  background-color: white;
+}
 
+.container {
+  margin: auto;
+  width: 1024px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.columns {
+display: flex;
+}
+
+.info-column {
+  width: 29%;
+  color: black;
+  background-color: rgb(146, 146, 146);
+}
+
+.main-column {
+  width: 70%;
+  padding: 50px;
+}
+
+.info-column header {
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: grey;
+}
+
+.info-column header img {
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.info-column h1 {
+  margin: 10px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.info-column h2 {
+  margin: 10px;
+}
+
+.main {
+  padding: 45 px auto;
+}
+
+main h3 {
+  width: 100px;
+  margin: auto;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: black;
+  background-color: white;
+}
+
+main .contacts h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: translate(0, -40%);
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+.contacts li img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.social_media {
+  align-items: center;
+}
+
+.main-header {
+  display: flex;
+  text-align: middle;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.education p strong {
+  font-weight: 600;
+}
+
+.main-column h3 {
+  flex: 1;
+  vertical-align: middle;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: white;
+}
+
+.main-column p {
+  color: black;
+}
+
+.education p {
+  margin-left: 30px;
+}
+
+.courses ul {
+  list-style-type: disc;
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+
+.courses li {
+  margin-bottom: 10px;
+}
+
+.code-example p {
+  margin-left: 45px;
+}
+
+code {
+  background-color: #eee;
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 0 3px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+    background-color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
