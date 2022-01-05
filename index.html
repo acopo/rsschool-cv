@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ilya Meleshkov CV</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">   </head>
+  <body>
+        <div class="container">
+            <div class="columns">
+                <div class="info-column">
+                    <header class="header">
+                        <img src="photo.png" alt="My photo" class="photo" width="270" height="270"/>
+                        <div class="info-text">
+                        <h1>Ilya Meleshkov</h1>
+                        <h2>Junior Front-end developer</h2>
+                        <h3><img src="./logo/location.png" alt="location-logo"  width="15" height="15"/> Ryazan, Ryazan Oblast,<strong> RUS</strong></h3>
+
+                    </header>
+                    <main>                        
+                        <section class="contacts">
+                            <h4>Contacts</h4>
+                                <ul>
+                                    <li>
+                                        <img src="./logo/phone-logo.png" alt="phone-logo" width="20" height="20">
+                                        <p>+7 (910) 904-90-53</p>
+                                    </li>
+                                    <li>
+                                        <img src="./logo/email-logo.png" alt="email-logo" width="20" height="20">
+                                        <a target="email_link" href="mailto:mr.melesh@gmail.com"><p>mr.melshko@gmail.com</p></a>
+                                    </li>
+                                    <li>
+                                        <img src="./logo/telegram-logo.png" alt="telegram-logo" width="20" height="20">
+                                        <p>@meleshkovskiy</p>
+                                    </li>
+                                </ul>
+                        </section>
+                        <section class="social_media">
+                            <h4>Social media</h4>
+                            <div> 
+                                <a target="vkontakte_link" href="https://vk.com/melesh_melesh"><img src="./logo/vk-logo.png" alt="vk-logo" width="30"/></a>
+                                <a target="instagram_link" href="https://www.instagram.com/meleshkovskiy"><img src="./logo/instagram-logo.png" alt="instagram-logo" width="30"/></a>
+                                <a target="github_link" href="https://github.com/acopo"><img src="./logo/github-logo.png" alt="github-logo" width="30"/></a>
+                            </div>
+                        </section>
+                        <section class="skills">
+                            <h4>Skills</h4>
+                            <ul>
+                            <li>HTML5, CSS3</li>
+                            <li>JavaScript Basics</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                            </ul>
+                        </section>
+                        <section class="skills">
+                            <h4>Languages</h4>
+                            <ul>
+                            <li>Russian (Native) </li>
+                            <li>English (A1-A2)</li>
+                            </ul>
+                        </section>
+                    </main>
+                    </div>
+                <aside class="main-column">
+                    <section class="about-myself">
+                        <div class="main-header">
+                        <h5>About Myself</h5>
+                        </div>
+                        <p>Hi everyone. I'm 26 years old. Born, living and working in the city of Ryazan, Russia. I studied for a bachelor's degree at Ryazan State Radio Engineering University in the direction of "Infocommunication Technologies and Communication Systems," graduated in 2017</p>
+                        <p> Currently, he works as a state inspector of road supervision at the Center for Road and Technical Supervision, promotion of road safety of the traffic police of the Ministry of Internal Affairs of Russia in the Ryazan region. The work is not dusty, but boring.</p>
+                        <p> I began to become interested in programming in 2020, as I am very attracted to this area of activity with my capabilities, flexibility and diversity. I started training myself, reading various materials on the Internet and watching videos on YouTube related to this topic. In 2021, a friend advised me to take a Frontend development course in RsSchool, after which I, without hesitation, signed up for a preparatory course.</p>
+                        </section>
+                    <section class="education">
+                        <div class="main-header">
+                        <h5>Education</h5>
+                        </div>
+                        <p><strong>Ryazan State Radio Engineering University named after V.F. Utkin</strong></p>
+                        <p><strong>Faculty:</strong> Radio Engineering and Telecommunication</p>
+                        <p><strong>Specialization:</strong> Infocommunication technologies and communication systems</p>
+                        <p><strong>Academic degree:</strong> bachelor</p>
+                        <p><strong>Years:</strong> 2013-2017</p>
+                    </section>
+                    <section class="courses">
+                        <div class="main-header">
+                        <h5>Courses</h5>
+                        </div>
+                        <ul>
+                            <li>JavaScript Manual on learnjavascript.ru</li>
+                            <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+                        </ul>
+                    </section>
+                        <section class="code-example">
+                        <div class="main-header">
+                        <h5>Code example</h5>
+                        </div>
+                              <pre><code>
+  function createtable(rows, cols){
+    var table="<table style='width: 600px' border='1'>";
+    for(var i=0; i<rows; i++){
+        table +="<tr>";
+        for(var j=0; j<cols; j++){
+            table +="<td> Ячейка "+(j+1)+" </td>";
+            }
+            table +="</tr>";
+            }
+            table +="</table>";
+             document.write(table);
+            }
+    createtable(5, 3);
+    createtable(3, 5);
+                            </code>
+                            </pre>
+                         </section>
+                </aside>
+            </div>
+            <footer>
+                <a href="https://rs.school/js/">
+                <a target="rsshool_link" href="https://rs.school"><img src="./logo/rsschool-logo.png" alt="rsschool-logo" width="100" height="50"></a>
+            </footer>
+        </div>
+    </body>
 </html>
