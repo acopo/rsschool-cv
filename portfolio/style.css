@@ -187,7 +187,6 @@ a {
 	height: 2px;
 	width: 350px;
 	left: 255px;
-	left: -14px;
 }
 
 .title_text::after {
@@ -199,7 +198,6 @@ a {
 	height: 2px;
 	width: 350px;
 	right: 255px;
-	right: -14px;
 }
 
 .container_skills_completion {
